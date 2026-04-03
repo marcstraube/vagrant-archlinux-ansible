@@ -1,0 +1,19 @@
+# archlinux-ansible.auto.pkrvars.hcl.example
+# -----------------------------------------------------------------------------
+# User configuration for the Arch Linux Ansible Box Builder.
+# Copy this file to archlinux-ansible.auto.pkrvars.hcl and adjust as needed.
+# Files matching *.auto.pkrvars.hcl are automatically loaded by Packer.
+# -----------------------------------------------------------------------------
+
+# HCP Registry username
+# registry_name = "marcstraube"
+
+# Box name
+# box_name = "archlinux-ansible"
+
+# Comma-separated list of countries for reflector mirror selection.
+# Leave empty to use mirrors from all countries.
+# reflector_countries = "Germany,Austria,Switzerland"
+
+# Set to false to automatically release after upload.
+# no_release = true

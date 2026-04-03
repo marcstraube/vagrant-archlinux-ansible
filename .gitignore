@@ -1,0 +1,19 @@
+# Packer user configuration
+*.auto.pkrvars.hcl
+
+# Packer build output
+output-*/
+
+# Build artifacts
+*.box
+
+# Vagrant temporary files
+.vagrant/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+\#*\#
